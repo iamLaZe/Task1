@@ -38,7 +38,7 @@ src/scoring.py         windows, ranking, Bottom 10 / Top 5, coaching rules, busi
 src/text_analysis.py   PII masking, TF-IDF + NMF themes, agent theme tables
 src/validation.py      data-quality report, manual NLP review utility
 tests/test_metrics.py  automated tests
-deliverables/          submission package (memo, form, validation, script, AI log, handoff)
+
 ```
 
 ## 8. Metric definitions (policy v3.2 is authoritative)
@@ -129,7 +129,4 @@ predictive models, bonus allocation, database/API/auth/Docker/LLM calls.
 - **Page 4** — data quality counts, before/after legacy fix, anomalies, conflicts resolved in favour of the policy, NLP review status.
 - Read *Coaching priority* as "review for training", and *Bottom 10 — review context* as "low CSAT, check the queue first".
 
-## Submission package
-`deliverables/` holds the non-code submission files: `01_Priya_Raman_Memo`, `02_Submission_Form`, `03_Validation_Report`,
-`04_Screen_Recording_Script`, `05_AI_Usage_and_Decisions`, `06_Monday_Handoff`, `07_Prompt_Log` (Markdown; memo and validation report also as PDF). A copy of the completed form is at the root: `submission-form.md`.
-Placeholders such as `[FILL IN ACTUAL HOURS]` and the GitHub/Drive links must be filled by the author.
+

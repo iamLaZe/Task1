@@ -12,3 +12,4 @@ data/*.pdf
 # Manual NLP review sheets may contain ticket text
 outputs/
 .DS_Store
+*:Zone.Identifier
