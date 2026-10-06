@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.streamlit/secrets.toml
+verio/
+data/*.csv
+# Source data contains customer PII - never commit it
+data/*.csv
+data/*.pdf
+# Manual NLP review sheets may contain ticket text
+outputs/
+.DS_Store
